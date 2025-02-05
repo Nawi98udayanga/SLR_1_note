@@ -1,4 +1,4 @@
-# SLR_1_note
+# SLR(1)_Short_Note
 **SLR(1)**
 
 In the bottom-up parsers there are two main catgories like below,
