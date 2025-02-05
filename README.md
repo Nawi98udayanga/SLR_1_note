@@ -37,7 +37,7 @@ SLR(1) uses FOLLOW sets to "filter" reductions, making it more powerful than LR(
 
 Lets, consider small exmaples to understand the SLR(1) more spesifically,
 
-Example 01 - 
+**Example 01 - **
 
 R1 : A  → A c
 R2 :    | A a d 
@@ -55,9 +55,29 @@ sample answer  -
 2) parsing steps for the (Input - Action ) of the input string " bdc " 
 
 
-![image](https://github.com/user-attachments/assets/a3052548-a9e5-42db-b021-81f12a0b20d7)
+![image](https://github.com/user-attachments/assets/18baf0ad-9d55-46df-a130-4a10581db102)
 
 ![image](https://github.com/user-attachments/assets/00e1b5a5-15a6-441f-aa4b-1e787f3b80ca)
 
 
+**Example 2**
 
+Consider the following grammar with the starting terms S. 
+S → P 
+S → a y 
+p → x P y
+P → Q 
+Q → a 
+
+in the above S,P,Q are non-terminal and others are terminals.
+
+a) illustrating  the set of  SLR(1) items with the corresponding DFA for the given grammar 
+b)  Briefly explaining whether this grammar is SLR(1) or not.
+c)  The FOLLOW sets for each non-terminal
+
+Sample Answer  -
+
+
+![SLR_2](https://github.com/user-attachments/assets/959345c5-761b-425f-822e-0bd6f5069d7c)
+
+Thank You . 
