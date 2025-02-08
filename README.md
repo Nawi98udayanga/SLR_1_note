@@ -40,9 +40,13 @@ Lets, consider small exmaples to understand the SLR(1) more spesifically,
 **Example 01 - **
 
 R1 : A  → A c
+
 R2 :    | A a d 
+
 R3 :    | b d 
+
 R4 :    |  ε
+
 
 where A is non-terminal while all others are terminal and ε means null.
 
@@ -79,5 +83,20 @@ Sample Answer  -
 
 
 ![SLR_2](https://github.com/user-attachments/assets/959345c5-761b-425f-822e-0bd6f5069d7c)
+
+
+**Example 3**
+
+Grammar  - 
+
+S →  L = R |  R
+
+L→ * R | id
+
+R → L
+
+![1](https://github.com/user-attachments/assets/85b1d1f3-ca8e-4415-b913-ad2c95708a2c)
+
+![2](https://github.com/user-attachments/assets/2e3bedbc-d04f-420d-a2bb-58f1dd97fb54)
 
 Thank You . 
