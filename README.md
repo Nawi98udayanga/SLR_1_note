@@ -54,7 +54,8 @@ where A is non-terminal while all others are terminal and ε means null.
 sample answer  -
 1) DFA and SLR(1) parsing table
 
-![SLR](https://github.com/user-attachments/assets/8c708a71-1bd9-456e-9f39-0463ad5c714b) 
+![SL](https://github.com/user-attachments/assets/ea752f43-7163-4fac-b76d-4504ed80b682)
+
 
 2) parsing steps for the (Input - Action ) of the input string " bdc " 
 
